@@ -1,0 +1,7 @@
+1. main.py - Contains the main entry point of the SuperAGI toolkit tool.
+2. api_client.py - Contains the API client class that handles requests to the API.
+3. settings.py - Contains the settings class that stores the API URL, username, password, and access token.
+4. utils.py - Contains utility functions used by the SuperAGI toolkit tool.
+5. requirements.txt - Contains the required packages for the SuperAGI toolkit tool.
+6. run.sh - Shell script to run the SuperAGI toolkit tool.
+7. HowTo.txt - Instructions for creating a GitHub repository and installing the SuperAGI toolkit tool.
