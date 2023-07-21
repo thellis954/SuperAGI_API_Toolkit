@@ -12,7 +12,9 @@ def main():
     # Perform API requests
     response = client.get('/endpoint')
     utils.process_response(response)
+    ACCESS_TOKEN = utils.process_response(client.post(f"{client.api_url}/login",f"{client.username}|{client.password}"))
 
+    print(ACCESS_TOKEN)
     data = {'key': 'value'}
     response = client.post('/endpoint', data)
     utils.process_response(response)
